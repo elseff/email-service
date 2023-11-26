@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: "${SPRING_MAIL_HOST}"
+    port: "${SPRING_MAIL_PORT}"
+    username: "${SPRING_MAIL_USERNAME}"
+    protocol: "${SPRING_MAIL_PROTOCOL}"
+    password: "${SPRING_MAIL_PASSWORD}"
+    properties:
+      mail:
+        debug:
+          false
+        smtp:
+          auth: true
+          starttls:
+            enable: true
